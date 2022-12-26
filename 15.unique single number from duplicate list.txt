@@ -1,0 +1,17 @@
+#unique single number from duplicate list
+l=[]
+n=int(input("enter the number of elements in the list"))
+for i in range(0,n):
+    k=int(input())
+    l.append(k)
+for j in range(0,n):
+    i=j+1
+    if l[i]!=l[j]:
+        print(l[i])
+        break
+    
+        
+
+    
+        
+  
